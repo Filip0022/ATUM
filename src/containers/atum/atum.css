@@ -1,0 +1,101 @@
+body {
+  font-family: var(--font-family);
+}
+
+#about aside {
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  align-items: start;
+}
+
+#about aside img {
+  width: 35rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+  border-radius: 2rem;
+}
+
+#about main {
+  display: flex;
+  background: whitesmoke;
+  align-items: start;
+  flex-direction: row;
+}
+
+@media (max-width: 1119px) {
+  #about main {
+    flex-direction: column;
+  }
+
+  #about main aside {
+    padding-bottom: 2rem;
+  }
+
+  #about aside img {
+    width: 100%;
+    max-width: 35rem;
+  }
+}
+
+#about header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background: whitesmoke;
+  padding: 2rem;
+}
+
+#about header h4 {
+  color: blue;
+  font-size: 30px;
+}
+
+#about header h1 {
+  color: lightskyblue;
+  font-size: 40px;
+}
+
+#about article {
+  background: rgb(39, 56, 55);
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  width: 10rem;
+  margin-left: 1rem;
+}
+
+#about article:hover {
+  background: transparent;
+  border-color: lightblue;
+  cursor: default;
+}
+
+#about svg {
+  color: lightskyblue;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+#about article h5 {
+  font-size: 0.95rem;
+  color: white;
+}
+
+#about article small {
+  font-size: 0.7rem;
+  color: lightskyblue;
+}
+
+#about section div {
+  display: flex;
+  justify-content: space-around;
+}
+
+#about section p {
+  margin: 2rem 0 2.6rem;
+  color: blue;
+  font-weight: bold;
+}

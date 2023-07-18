@@ -1,0 +1,123 @@
+.atum__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 2rem;
+}
+
+.atum__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.atum__navbar-links_logo {
+  color: white;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.atum__navbar-links_container {
+  display: flex;
+  justify-content: row;
+  margin-left: 5rem;
+}
+
+.atum__navbar-sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.atum__navbar-links_container p,
+.atum__navbar-number p {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.atum__navbar-number img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.atum__navbar-number {
+  display: flex;
+}
+
+.atum__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.atum__navbar-menu svg {
+  cursor: pointer;
+}
+
+.atum__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: end;
+  background: radial-gradient(circle at 3% 50%, rgba(0, 156, 207, 1) 0%, rgba(16, 20, 107, 1) 100%);
+  color: white;
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  z-index: 999;
+  box-shadow: 0px 1px 8px 1px rgba(0,0,0,1);
+}
+
+.atum__navbar-menu_container p {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+  .atum__navbar-links_container {
+    display: none;
+  }
+
+  .atum__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .atum__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .atum_navbar {
+    padding: 2rem;
+  }
+
+  .atum__navbar-number {
+    display: none;
+  }
+
+
+  .atum__navbar-menu_container {
+    top: 20px;
+  }
+
+  .atum__navbar-menu_container-links-number {
+    display: block;
+  }
+}
