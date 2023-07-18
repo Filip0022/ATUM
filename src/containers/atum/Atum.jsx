@@ -37,7 +37,10 @@ import { BsCalendarEvent } from 'react-icons/bs';
             </article>
           </div>
           <p>
-          Oferujemy solidne wyposażenie dodatkowe do naszych namiotów, takie jak stoły, krzesła, oświetlenie LED, podłogi, lustra i wieszaki. Nasze produkty są wysokiej jakości i zapewniają wygodę oraz elegancki wygląd wnętrza. Bez względu na rodzaj uroczystości, nasze wyposażenie doskonale spełni potrzeby i zapewni udane wydarzenie.          </p>
+            Oferujemy solidne wyposażenie dodatkowe do naszych namiotów, takie jak stoły, krzesła, oświetlenie LED, podłogi, lustra i wieszaki. Nasze produkty są wysokiej jakości i zapewniają wygodę oraz elegancki wygląd wnętrza. 
+            <br/><br/>
+            Bez względu na rodzaj uroczystości, nasze wyposażenie doskonale spełni potrzeby i zapewni udane wydarzenie.          
+          </p>
         </section>  
       </main>
     </section>
