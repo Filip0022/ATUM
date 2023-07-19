@@ -1,18 +1,43 @@
-.atum__navbar {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem 2rem;
 }
 
-.atum__navbar-links {
+@media screen and (max-width: 700px) {
+  #navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #navbar {
+    padding: 2rem;
+  }
+
+  #navbar article {
+    display: none;
+  }
+
+
+  #navbar main nav {
+    top: 20px;
+  }
+
+  #navbar main nav div {
+    display: block;
+  }
+}
+
+#navbar header {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.atum__navbar-links_logo {
+#navbar header p {
   color: white;
   margin-right: 3rem;
   display: flex;
@@ -20,20 +45,14 @@
   justify-content: center;
 }
 
-.atum__navbar-links_container {
+#navbar header aside {
   display: flex;
   justify-content: row;
   margin-left: 5rem;
 }
 
-.atum__navbar-sign {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.atum__navbar-links_container p,
-.atum__navbar-number p {
+#navbar header aside p,
+#navbar article p {
   color: white;
   font-family: var(--font-family);
   font-weight: 500;
@@ -44,26 +63,26 @@
   cursor: pointer;
 }
 
-.atum__navbar-number img {
+#navbar article img {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.atum__navbar-number {
+#navbar article {
   display: flex;
 }
 
-.atum__navbar-menu {
+#navbar main {
   margin-left: 1rem;
   display: none;
   position: relative;
 }
 
-.atum__navbar-menu svg {
+#navbar main svg {
   cursor: pointer;
 }
 
-.atum__navbar-menu_container {
+#navbar main nav {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -71,7 +90,7 @@
   text-align: end;
   background: radial-gradient(circle at 3% 50%, rgba(0, 156, 207, 1) 0%, rgba(16, 20, 107, 1) 100%);
   color: white;
-  padding: 2rem;
+  padding: 0.5rem 1rem;
   position: absolute;
   top: 40px;
   right: 0;
@@ -83,41 +102,44 @@
   box-shadow: 0px 1px 8px 1px rgba(0,0,0,1);
 }
 
-.atum__navbar-menu_container p {
+#navbar main nav p {
   margin: 1rem 0;
 }
 
 @media screen and (max-width: 1050px) {
-  .atum__navbar-links_container {
+  #navbar header aside {
     display: none;
   }
 
-  .atum__navbar-menu {
+  #navbar main {
     display: flex;
   }
 }
 
-@media screen and (max-width: 700px) {
-  .atum__navbar {
-    padding: 2rem 4rem;
-  }
-}
-
 @media screen and (max-width: 550px) {
-  .atum_navbar {
+  #navbar {
     padding: 2rem;
   }
 
-  .atum__navbar-number {
+  #navbar article {
     display: none;
   }
 
 
-  .atum__navbar-menu_container {
+  #navbar main nav {
     top: 20px;
   }
 
-  .atum__navbar-menu_container-links-number {
+  #navbar main nav div {
     display: block;
   }
+}
+
+#navbar nav div a {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar nav div a:hover {
+  border-bottom: 2px solid white;
 }

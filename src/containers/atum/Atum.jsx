@@ -21,7 +21,7 @@ import { BsCalendarEvent } from 'react-icons/bs';
             <article>
               <FaAward/>
               <h5>Doświadczenie</h5>
-              <small>7+ Lat na rynku</small>
+              <small>7+ lat na rynku</small>
             </article>
 
             <article>
