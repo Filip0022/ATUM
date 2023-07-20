@@ -1,0 +1,34 @@
+#price {
+  background: whitesmoke;
+  display: flex;
+  align-items: center;  
+  border-style: solid;
+  border-color: black;
+}
+
+#price nav {
+  margin-left: 5rem;
+}
+
+#price h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#price div {
+  padding: 3rem 4rem;
+  line-height: 1.5rem;
+}
+
+#price h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#price p {
+  
+}
+
+#price button {
+
+}
