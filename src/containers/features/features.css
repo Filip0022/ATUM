@@ -1,0 +1,24 @@
+#belived h1 {
+  color: blue;
+  padding: 2rem;
+  text-align: center;
+  font-size: 4rem;
+}
+
+#belived header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#belived header img {
+  width: 16%;
+  height: 100%;
+}
+
+#belived header img:nth-child(even) {
+  width: 100px;
+  height: 100px;
+}
+
