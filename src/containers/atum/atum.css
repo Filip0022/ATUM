@@ -19,7 +19,6 @@ body {
 
 #about main {
   display: flex;
-  background: whitesmoke;
   align-items: start;
   flex-direction: row;
 }
@@ -43,7 +42,6 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background: whitesmoke;
   padding: 2rem;
 }
 
@@ -54,7 +52,7 @@ body {
 
 #about header h1 {
   color: lightskyblue;
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 #about article {
@@ -70,13 +68,10 @@ body {
   justify-content: center;
   width: 10rem;
   height: 12rem;
-  
 }
 
 #about article:hover {
-  background: transparent;
-  border-color: lightblue;
-  cursor: default;
+  cursor: pointer;
 }
 
 #about svg {
@@ -87,6 +82,7 @@ body {
 
 #about article h5 {
   font-size: 0.95rem;
+  margin-bottom: 1rem;
   color: white;
 }
 
@@ -113,17 +109,21 @@ body {
 }
 
 #about section p {
-  margin: 1rem auto;
-  padding: 1rem 2rem;
-  color: rgb(20, 94, 231);
+  margin: 1rem 1rem;
+  padding: 0.5rem 2rem;
+  background: rgb(39, 56, 55);
+  color: white;
   font-weight: bold;
-  text-align: justify;
   text-indent: 1rem;
   line-height: 1.75rem;
+  border-radius: 2rem;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  text-align: center;
 }
 
 @media (max-width: 1119px) {
   #about section p {
     max-width: 80%;
+    margin: 1rem 5rem;
   }
 }

@@ -6,8 +6,8 @@ import phone from '../../assets/phone.png';
 
 const Menu = () => (
   <>
-  <p><a href="#oferta">Oferta</a></p>
-  <p><a href="#cennik">Cennik</a></p>
+  <p><a href="#offer">Oferta</a></p>
+  <p><a href="#price">Cennik</a></p>
   <p><a href="#galeria">Galeria zdjęć</a></p>
   <p><a href="#about">O nas</a></p>
   <p><a href="#kontakt">Kontakt</a></p>

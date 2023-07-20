@@ -1,61 +1,60 @@
-.atum__brand-container {
-  background: whitesmoke;
+body {
+  font-family: var(--font-family);
 }
 
-.atum__brand-title {
+#offer header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 4rem;
-  color: lightskyblue;
+  color: blue;
+  font-size: 4rem;
 }
 
-.atum__brand-cards {
+#offer nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 2rem;
+  justify-content: space-around;
 }
 
-.atum__brand-card {
-  border-width: 2px;
-  border-color: blue;
+#offer article {
   border-style: solid;
-  margin: 2rem;
+  border-color: whitesmoke;
+  background: whitesmoke;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  width: 20rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 1rem;
+  align-items: center;  
   text-align: center;
+  padding: 1rem 2rem;
   border-radius: 2rem;
-  height: 30rem;
-  
+  line-height: 1.5rem
 }
 
-.atum__brand-card:hover {
-  background: transparent;
-  border-color: lightblue;
-  cursor: default;
+@media (max-width: 1119px) {
+  #offer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #offer article {
+    width: 80%;
+    margin: 2rem;
+  }
 }
 
-.atum__brand-card_icon {
+.icon {
   font-size: 3rem;
   color: lightskyblue;
 }
 
-.atum__brand-card h3 {
+#offer article h3 {
   margin-top: 10px;
   color: lightskyblue;
 }
 
-.atum__brand-card p {
+#offer article p {
   margin-top: 10px;
-  color: blue;
+  color: black;
 }
-
-.atum__brand-card:hover {
-  
-}
-
-  
-
