@@ -1,33 +1,86 @@
 #price {
   display: flex;
-  align-items: center;  
-  border-style: solid;
-  border-color: black;
-}
-
-#price nav {
-  margin-left: 5rem;
+  border-color: whitesmoke;
+  background: whitesmoke;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 1rem;
+  width: 85%;
+  align-items: center;
+  padding: 4rem 4rem;
+  margin: auto;
 }
 
 #price h1 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   text-align: center;
-}
-
-#price div {
-  padding: 3rem 4rem;
-  line-height: 1.5rem;
-}
-
-#price h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  padding-bottom: 6rem;
+  margin-top: 4rem;
 }
 
 #price p {
-  
+  line-height: 1.8rem;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+#price div {
+  line-height: 1.5rem;
+  text-align: center; 
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
+
+#price h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
 }
 
 #price button {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+}
 
+@media (max-width: 1119px) {
+  #price {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #price div {
+    font-size: 1.2rem;
+  }
+
+  #price button {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  #price {
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+
+  #price div {
+    margin: 0rem auto;
+  }
+
+  #price h3 {
+    font-size: 1.5rem;
+  }
+
+  #price h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+  }
 }

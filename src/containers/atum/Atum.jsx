@@ -1,6 +1,6 @@
 import React from 'react'
 import './atum.css';
-import Tent from '../../assets/Tents.png';
+import Tent from '../../assets/Tents2.jpeg';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { BsCalendarEvent } from 'react-icons/bs';

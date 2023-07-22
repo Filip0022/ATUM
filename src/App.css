@@ -15,9 +15,7 @@ a {
 }
 
 #app {
-  background: url("/public/images/background.jpg");
-  background-position: center;
-  background-size: cover;
+  background: azure;
 }
 
 .gradient__bg {
