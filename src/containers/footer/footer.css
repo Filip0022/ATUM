@@ -1,0 +1,14 @@
+#footer {
+  background-color: rgb(48,48,48)
+}
+
+#footer header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+}
+
+#footer p {
+  color: white;
+}

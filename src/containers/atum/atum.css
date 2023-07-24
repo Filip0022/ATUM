@@ -134,5 +134,7 @@ body {
   #about section p {
     max-width: 80%;
     margin: 1rem 5rem;
+    align-items: center;
+    display: flex;
   }
 }

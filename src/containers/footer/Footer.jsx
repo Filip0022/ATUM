@@ -3,7 +3,12 @@ import './footer.css';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section id="footer">
+      <header>
+        <p>ATUM © 2023 </p>
+        <p>Designed by Filip Kłos</p>
+      </header>
+    </section>
   )
 }
 

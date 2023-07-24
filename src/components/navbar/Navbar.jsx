@@ -8,9 +8,9 @@ const Menu = () => (
   <>
   <p><a href="#offer">Oferta</a></p>
   <p><a href="#price">Cennik</a></p>
-  <p><a href="#galeria">Galeria zdjęć</a></p>
+  <p><a href="#gallery">Galeria zdjęć</a></p>
   <p><a href="#about">O nas</a></p>
-  <p><a href="#kontakt">Kontakt</a></p>
+  <p><a href="#contact">Kontakt</a></p>
   </>
 )
 

@@ -1,0 +1,62 @@
+#contact {
+  border-color: whitesmoke;
+  background: whitesmoke;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 1rem;
+  width: 80%;
+  align-items: center;
+  padding: 4rem 4rem;
+  margin: 10rem auto;
+}
+
+#contact h1 {
+  font-size: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+#contact header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 750px) {
+  #contact {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+  
+  #contact header {
+    flex-direction: column;
+  }
+
+  #contact h1 {
+    font-size: 2.5rem;
+  }
+}
+
+#contact div {
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: lightskyblue;
+}
+
+#contact h2 {
+  color: lightskyblue;
+  padding-top: 10px;
+}
+
+#contact h5 {
+  padding-top: 7px;
+}
+
+#contact p {
+  padding-top: 3px;
+}

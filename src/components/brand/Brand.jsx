@@ -2,6 +2,7 @@ import React from 'react'
 import './brand.css';
 import { GiBarracksTent } from 'react-icons/gi';
 import { TbTruckDelivery } from 'react-icons/tb';
+import { MdOutlineChair } from 'react-icons/md';
 
 const Brand = () => {
   return (
@@ -26,7 +27,7 @@ const Brand = () => {
           </article>
 
           <article>
-            <GiBarracksTent className="icon" />
+            <MdOutlineChair className="icon" />
             <h3>BOGATY WYBÓR WYPOSAŻENIA DODATKOWEGO W NASZEJ OFERCIE!</h3>
             <p>
             Oferujemy klientom nie tylko bogaty wybór solidnych i funkcjonalnych dodatków do namiotów, takich jak różnego rodzaju stoły, wygodne krzesła, nowoczesne oświetlenie LED, trwałe podłogi, eleganckie lustra i praktyczne wieszaki, lecz także zapewnia im całkowite zaufanie w wysokiej jakości tych produktów oraz możliwość pełnego dopasowania ich do indywidualnych potrzeb każdej uroczystości, aby stworzyć komfortowe wnętrza, w których mile spędzą czas ich goście.
