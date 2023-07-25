@@ -44,11 +44,11 @@ a {
   --webkit-text-fill-color: transparent;
 }
 
-.section__padding: {
+.section__padding {
   padding: 4rem 6rem;
 }
 
-.section__margin: {
+.section__margin {
   padding: 4rem 6rem;
 }
 

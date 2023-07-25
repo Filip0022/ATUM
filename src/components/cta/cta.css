@@ -1,6 +1,7 @@
 #contact {
   border-color: whitesmoke;
-  background: whitesmoke;
+  background: url('/public/images/contact-background.JPG');
+  background-size: cover;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 1rem;
   width: 80%;
@@ -15,6 +16,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 4rem;
+  color: white;
 }
 
 #contact header {
@@ -45,18 +47,20 @@
 
 .icon {
   font-size: 3rem;
-  color: lightskyblue;
+  color: white;
 }
 
 #contact h2 {
-  color: lightskyblue;
+  color: white;
   padding-top: 10px;
 }
 
 #contact h5 {
   padding-top: 7px;
+  color: white;
 }
 
 #contact p {
   padding-top: 3px;
+  color: white;
 }

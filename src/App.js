@@ -1,27 +1,23 @@
 import React from 'react'
-import Background from '../src/assets/background.jpg';
-import { Footer, Blog, Possibility, Features, Atum, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import {Navbar} from './components';
 import './App.css';
+import Main from "./containers/main/Main";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Gallery from "./containers/gallery/Gallery";
 
 const App = () => {
-  return (
-    <div>
-      <div className="gradient__bg">
-        <Navbar />
-      </div>
-      <Header />
-      <div id="app">
-        <Atum />
-        <Brand />
-        <Features />
-        <Possibility />
-        <CTA />
-        <Blog />
-        <Footer />
-      </div>
-    </div>
-  )
+    return (
+        <BrowserRouter>
+            <div className="gradient__bg">
+                <Navbar/>
+            </div>
+            <Routes>
+                <Route path="/" element={<Main/>}/>
+                <Route path="/gallery" element={<Gallery/>}/>
+            </Routes>
+        </BrowserRouter>
+
+    )
 }
 
 export default App
