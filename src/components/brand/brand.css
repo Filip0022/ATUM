@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 body {
   font-family: var(--font-family);
 }
@@ -9,6 +11,7 @@ body {
   padding: 4rem;
   color: blue;
   font-size: 4rem;
+  font-family: Kaushan Script;
 }
 
 @media (max-width: 750px) {

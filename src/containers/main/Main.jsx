@@ -14,7 +14,6 @@ const Main = () => {
                 <Features />
                 <Possibility />
                 <CTA />
-                <Blog />
                 <Footer />
             </div>
         </div>

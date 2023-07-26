@@ -4,7 +4,15 @@ import './Gallery.css';
 const Gallery = () => {
   return (
     <section id="gallery">
-        <p>Dupa</p>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
+       <img src="/images/gallery1.JPG"/>
     </section>
   )
 }

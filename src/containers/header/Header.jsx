@@ -7,7 +7,6 @@ import { sliderData } from './header-data.js';
 const Header = () => {
     const [currentSlide, setCurrentSlice] = useState(0);
     const slideLength = sliderData.length;
-
     const autoScroll = true;
     let slideInterval;
     let intervalTime = 5000;
@@ -44,18 +43,20 @@ const Header = () => {
 
       {sliderData.map((slide, index) => {
         return (
-          <div className={index === currentSlide ? "slide current" : "slide"} key={index}> 
-            {index === currentSlide && (
-              <>
-              <img src={slide.image} alt="slide" />
-              <div className="content">
-                <h2>{slide.heading}</h2>
-                <p>{slide.description}</p>
-                <hr />
+            <section id="header">
+              <div className={index === currentSlide ? "slide current" : "slide"} key={index}>
+                {index === currentSlide && (
+                  <>
+                  <img src={slide.image} alt="slide" />
+                  <div className="content">
+                    <h2>{slide.heading}</h2>
+                    <p>{slide.description}</p>
+                    <hr />
+                  </div>
+                  </>
+                )}
               </div>
-              </>
-            )}
-          </div>
+            </section>
         )
       })}
     </div>

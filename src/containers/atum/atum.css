@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
 body {
   font-family: var(--font-family);
 }
@@ -34,7 +37,16 @@ body {
 
   #about aside img {
     width: 100%;
-    max-width: 35rem;
+    max-width: 50rem;
+    object-fit: cover;
+  }
+
+  .downTab {
+    max-width: 80%;
+    margin: 1rem 7rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -42,17 +54,19 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 #about header h4 {
+  font-family: Kaushan Script;
   color: blue;
-  font-size: 30px;
+  font-size: 4rem;
 }
 
 #about header h1 {
+  font-family: Kaushan Script;
   color: lightskyblue;
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 #about article {
@@ -128,13 +142,5 @@ body {
   line-height: 1.75rem;
   border-radius: 2rem;
   text-align: center;
-}
-
-@media (max-width: 1119px) {
-  #about section p {
-    max-width: 80%;
-    margin: 1rem 5rem;
-    align-items: center;
-    display: flex;
-  }
+  display: flex;
 }
