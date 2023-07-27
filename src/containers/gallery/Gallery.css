@@ -1,13 +1,5 @@
 #gallery {
-  display: flex;
-  flex-direction: row;
-  background-color: whitesmoke;
-  height: 100rem;
-  width: 20rem;
-}
-
-#gallery img {
-  width: 15rem;
-  height: 10rem;
-  margin: 2rem 2rem;
+    display: table;
+    align-items: center;
+    margin: 0.2rem 0.5rem;
 }
