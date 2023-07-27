@@ -10,18 +10,29 @@
 }
 
 @media (max-width: 750px) {
+  #belived {
+    padding: 0;
+    margin: 0;
+  }
+
   #belived h1 {
     font-size: 3rem;
   }
 
   #belived header img {
     padding: 0 0.3rem;
+    margin: 2rem 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  #belived header {
+    flex-direction: column;
   }
 }
 
 #belived header {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding-bottom: 4rem;

@@ -76,12 +76,12 @@ body {
   border-radius: 1rem;
   padding: 1.5rem;
   text-align: center;
+  margin-bottom: 0.65rem;
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
   width: 10rem;
-  height: 12rem;
+  height: 11rem;
 }
 
 #about article:hover {

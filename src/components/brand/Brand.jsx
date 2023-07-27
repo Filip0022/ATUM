@@ -14,7 +14,7 @@ const Brand = () => {
             <GiBarracksTent className="icon" />
             <h3>NAMIOTY O NAJWYŻSZEJ JAKOŚCI SPOŚRÓD WSZYSTKICH DOSTĘPNYCH NA RYNKU</h3>
             <p>
-            Namioty o najwyższej jakości są wyborem nie tylko dla profesjonalnych imprez i wydarzeń, ale także dla niezapomnianych komunii i wesel. Zapewniają one nie tylko imponujący wygląd, ale również stwarzają magiczną atmosferę, idealną dla tych wyjątkowych uroczystości. Dzięki solidnym konstrukcjom i starannemu wykonaniu, namioty eventowe gwarantują niezawodność nawet podczas zmiennej pogody, zapewniając bezpieczne przestrzenie dla gości.
+            Namioty o najwyższej jakości są wyborem nie tylko dla profesjonalnych imprez i wydarzeń, ale także dla niezapomnianych komunii i wesel. Zapewniają one imponujący wygląd, ale również stwarzają magiczną atmosferę, idealną dla tych wyjątkowych uroczystości. Dzięki solidnym konstrukcjom i starannemu wykonaniu, namioty eventowe gwarantują niezawodność nawet podczas zmiennej pogody, zapewniając bezpieczne przestrzenie dla gości.
             </p>
           </article>
 

@@ -8,7 +8,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
   color: blue;
   font-size: 4rem;
   font-family: Kaushan Script;

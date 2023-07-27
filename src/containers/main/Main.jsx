@@ -10,9 +10,9 @@ const Main = () => {
             <Header />
             <div id="app">
                 <Atum />
-                <Brand />
                 <Features />
                 <Possibility />
+                <Brand />
                 <CTA />
                 <Footer />
             </div>

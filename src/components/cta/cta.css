@@ -1,13 +1,13 @@
 #contact {
   border-color: whitesmoke;
-  background: url('/public/images/contact-background.JPG');
+  background: url('/public/images/contact-background.png');
   background-size: cover;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 1rem;
   width: 80%;
   align-items: center;
   padding: 4rem 4rem;
-  margin: 10rem auto;
+  margin: 6rem auto 3rem auto;
 }
 
 #contact h1 {

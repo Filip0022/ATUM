@@ -1,7 +1,8 @@
 #price {
   display: flex;
   border-color: whitesmoke;
-  background: whitesmoke;
+  background-image: url("/public/images/wycena.jpg");
+  background-size: cover;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 1rem;
   width: 80%;
@@ -15,12 +16,14 @@
   text-align: center;
   padding-bottom: 6rem;
   margin-top: 4rem;
+  color: white;
 }
 
 #price p {
   line-height: 1.8rem;
   margin-top: 2rem;
   font-size: 1.4rem;
+  color: white;
 }
 
 #price div {
@@ -33,12 +36,18 @@
 #price h3 {
   font-size: 1.8rem;
   margin-bottom: 0.5rem;
+  color: white;
+  line-height: 2rem;
 }
 
 #price button {
   margin-top: 2rem;
   padding: 1rem 3rem;
   font-size: 1.2rem;
+}
+
+#price button a {
+  padding:
 }
 
 @media (max-width: 1119px) {
@@ -54,6 +63,7 @@
   #price button {
     font-size: 1.2rem;
     margin-top: 1.5rem;
+
   }
 }
 
