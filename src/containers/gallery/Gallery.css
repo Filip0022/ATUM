@@ -1,5 +1,8 @@
 #gallery {
-    display: table;
-    align-items: center;
-    margin: 0.2rem 0.5rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+#gallery img {
+    margin: 0 0.2rem;
 }

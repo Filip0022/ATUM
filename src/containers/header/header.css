@@ -39,7 +39,18 @@
 }
 
 .content h2{
- color: white;
+  background: rgba(173, 216, 242, 0.92);
+  color: white;
+  padding: 0.5rem;
+  position: absolute;
+  text-align: center;
+  top: 10rem;
+  width: 30rem;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
 }
 
 @keyframes slide-up {

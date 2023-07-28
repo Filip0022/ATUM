@@ -15,6 +15,7 @@ function Gallery() {
         'https://zoonews.pl/wp-content/uploads/2022/02/male-kotki.jpg',
         'https://zoonews.pl/wp-content/uploads/2022/02/male-kotki.jpg',
         'https://zoonews.pl/wp-content/uploads/2022/02/male-kotki.jpg',
+        'https://zoonews.pl/wp-content/uploads/2022/02/male-kotki.jpg',
     ];
 
     const openImageViewer = useCallback((index) => {
@@ -33,9 +34,9 @@ function Gallery() {
                 <img
                     src={ src }
                     onClick={ () => openImageViewer(index) }
-                    width="300"
+                    width="250px"
                     key={ index }
-                    style={{ margin: '1rem' }}
+                    style={{}}
                     alt=""
                 />
             ))}
