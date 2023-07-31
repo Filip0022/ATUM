@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
 
 body {
   font-family: var(--font-family);
@@ -54,17 +54,17 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 4rem;
+  padding: 0.5rem;
 }
 
 #about header h4 {
-  font-family: Kaushan Script;
-  color: blue;
+  font-family: Alkatra;
+  color: darkblue;
   font-size: 4rem;
 }
 
 #about header h1 {
-  font-family: Kaushan Script;
+  font-family: Alkatra;
   color: lightskyblue;
   font-size: 6rem;
 }
