@@ -40,6 +40,7 @@
 
 #navbar header p {
   color: white;
+  font-weight: 900;
   margin-right: 3rem;
   display: flex;
   align-items: center;
