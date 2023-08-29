@@ -9,7 +9,7 @@ const Possibility = () => {
         </nav>
         <div>
           <h3>Skontaktuj się z nami już teraz!</h3>
-          <p>Zadzwoń do nas i otrzymaj wycenę natychmiast. Gwarantujemy, że wszystkie dostępne pozycje w naszej ofercie utrzymują najwyższy standard pod względem technicznym, jak i wizualnym.</p>
+          <p>Zadzwoń do nas i zapytaj o wycenę. Gwarantujemy, że wszystkie dostępne pozycje w naszej ofercie utrzymują najwyższy standard pod względem technicznym, jak i wizualnym.</p>
         </div>
     </section>
   )

@@ -25,7 +25,7 @@ const Navbar = () => {
             <header>
                 <p>
                     <Link to={"/"}>
-                        ATUM TENT RENT
+                        ATUM WYPOŻYCZALNIA NAMIOTÓW
                     </Link>
                 </p>
                 <aside>

@@ -27,7 +27,7 @@ const CTA = () => {
           <FiMail className="icon"/>
           <h2>E-MAIL</h2>
           <h5>Napisz do nas:</h5>
-          <p>RobieLache@gmail.com</p>
+          <p>atum.namioty@gmail.com</p>
         </div>
       </header>
 

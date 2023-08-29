@@ -17,6 +17,6 @@ export const sliderData = [
   {
     image: "/images/biblioteka.jpeg",
     heading: "NAMIOTY IMPREZOWE",
-    description: "Na prywatne imprezy w twoim ogrodzie",
+    description: "Na prywatne imprezy w plenerze",
   }
 ]
