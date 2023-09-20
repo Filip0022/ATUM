@@ -54,7 +54,7 @@
 }
 
 #navbar header aside p,
-#navbar article p {
+#navbar article a {
   color: white;
   font-family: var(--font-family);
   font-weight: 500;
@@ -67,10 +67,16 @@
 #navbar article img {
   width: 1.5rem;
   height: 1.5rem;
+  margin-right: 0.5rem;
 }
 
 #navbar article {
   display: flex;
+}
+
+#navbar article a {
+    display: flex;
+    flex-direction: row;
 }
 
 #navbar main {

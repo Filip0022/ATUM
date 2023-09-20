@@ -4,11 +4,16 @@ import './navbar.css';
 import phone from '../../assets/phone.png';
 import {Link} from "react-router-dom";
 
+const ScrollTo = (id) => {
+    setTimeout(function(){
+        document.getElementById(id).scrollIntoView();
+    }, 500);
+}
 
 const Menu = () => (
     <>
         <p><a href="#offer">Oferta</a></p>
-        <p><a href="#price">Cennik</a></p>
+        <p><Link onClick={() => ScrollTo('price')} to='/'>Cennik</Link></p>
         <p>
             <Link to="/gallery">Galeria zdjęć</Link>
         </p>
@@ -33,8 +38,10 @@ const Navbar = () => {
                 </aside>
             </header>
             <article>
+                <a href="tel:+48790319878">
                 <img src={phone} alt="phone"/>
                 <p>790 319 878</p>
+                </a>
             </article>
             <main>
                 {toggleMenu
